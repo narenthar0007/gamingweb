@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .side-bar{
+            background-image:linear-gradient(to right bottom,rgba(224, 99, 99, 0.597),rgb(96, 96, 175));
+            width:200px;
+            height:100vh;
+            display: flex;
+            flex-direction: column;
+            position:fixed;
+            left:0;
+            top:0;
+        }
+        nav li{
+            list-style: none;
+            margin-top: 50px;
+        }
+        nav{
+            margin-top: 220px;
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 25px;
+            color:azure;
+        } 
+        nav a:hover{
+            color:black;
+            text-decoration: underline;
+        }
+        .side-bar-image{
+            width:25%;
+            position: absolute;
+            top:80px;
+            left:20px;
+        }
+        img{
+            margin-left: 10%;
+            border: 2px black solid;
+            border-radius: 100%;
+        }
+        .self img{
+            margin-left: 400px;
+            margin-bottom: 100px;
+            border-top-left-radius: 10%;
+            border-bottom-right-radius: 10%;
+        }
+        .self{
+            /* background-image: linear-gradient(to right top,black,grey); */
+            margin-top: 10px;
+        }
+        body{
+            background-image: linear-gradient(to right top,rgb(144, 100, 143),rgb(122, 126, 158));
+        }
+        #content .intro{
+            margin-left: 800px;
+            margin-top: 100px;
+            position:absolute;
+            top: 5px;
+        }
+        /*#content{
+            /* display: flex; */
+        #skills{
+            margin-left:50px;
+            /*border: black 3px solid;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.392) ;*/
+            margin-bottom: 200px;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #Education{
+            margin-left:500px; 
+            border: black 3px solid;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.392) ;
+            text-align: center;
+            margin-top: 180px;
+            margin-bottom: 80px;
+            margin-right: 500px;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #Project{
+            margin-left:200px;
+            border: black 3px solid;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.392) ;
+           margin-bottom: 380px;
+            margin-top: 100px;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #Personal{
+            margin-left:200px;
+            border: black 3px solid;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.392) ;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+         #Contact{
+            margin-left:200px;
+            border: black 3px solid;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.392) ;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 100px;
+         }
+         
+
+    </style>
+</head>
+<body bgcolor="azure">
+    <div class="main-container">
+        <div class="side-bar">
+            <div class="side-bar-image">
+            <img src="C:\Users\Archana\Pictures\Camera Roll\1674816025073 (2).jpg" alt="" height="150px" width="150px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#content">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Personal">Personal Info</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+            </ul>
+        </nav>
+     </div>
+
+     <!--Content Starts-->
+     <div id="content" class="content">
+        <div class="self">
+            <img src="C:\Users\Archana\Pictures\Camera Roll\1674816025073 (2).jpg" alt="" height="600px" width="350px">
+        </div>
+        <div class="intro">
+            <h1 style="color:  antiquewhite; font-size: 60px;">Archana.M</h1>
+            <h2 style="font-size: 25px; font-family:Arial, Helvetica, sans-serif; color: pink;">I am <span>self-motivated and keep patience in any situation.</span>I belive that my greatest strength is the ability to solve problems quickly and efficiently. I can see given situation from multiple perspectives.</h2>
+            </div>
+
+     </div>
+     <!--Content Ends-->
+     
+     <!--Skills starts-->
+     <nav>
+     <div id="skills">
+        <h1 style="text-align:center;color: antiquewhite;">SKILLS</h1>
+            <ul>
+                <li><a href="https://www.python.org/"><img src="C:\Users\Archana\Desktop\python.jfif" alt="" height="100px" width="100px"></a>PYTHON</li>
+                <li><a href="https://www.mysql.com/"><img src="C:\Users\Archana\Pictures\Saved Pictures\Mysql.png" alt="" height="100px" width="100px"></a>SQL</li>
+                <li><a href="https://www.javascript.com/"><img src="C:\Users\Archana\Pictures\Saved Pictures\javascript.jfif" alt="" height="100px" width="100px"></a>JAVASCRIPT</li>
+                <li><a href="https://www.djangoproject.com/"><img src="C:\Users\Archana\Pictures\Saved Pictures\django.png" alt="" height="100px" width="100px"></a>DJANGO</li>
+                <li><a href="https://www.php.net/"><img src="C:\Users\Archana\Pictures\Saved Pictures\php.png" alt=""  height="100px" width="100px"></a>PHP</li>
+                <li><a href="https://html.com/"><img src="C:\Users\Archana\Pictures\Saved Pictures\html.png" alt=""  height="100px" width="100px"></a>HTML</li>
+                <li><a href="https://www.free-css.com/"><img src="C:\Users\Archana\Pictures\Saved Pictures\css.png" alt="" height="100px" width="100px"></a>CSS</li>
+            </ul>
+     </div>
+     </nav>
+     <!--Skills End-->
+
+     <!--Education starts-->
+     <nav>
+     <div id="Education">
+        <h1 style="color: antiquewhite;">EDUCATION</h1>
+            <ul>
+                <li>BCA</li>
+                <li>Bangalore University-2022</li>
+                <li>PUC</li>
+                <li>Sri Lakshmi College-2018</li>
+                <li>SSLC</li>
+                <li>Kamala Nehru Primary School-2016</li>
+            </ul>
+     </div>
+     </nav>
+     <!--Education Ends-->
+
+     <!--Project starts-->
+     <nav>
+     <div id="Project">
+        <h1 style="color: antiquewhite;">PROJECT</h1>
+    
+            <ul>
+                <li>*AIRLINE RESERVATION SYSTEM-USING VB.NET</li> 
+                <li>*BUS RESERVATION SYSTEM-USING VB.NET</li>
+                <li>*AMAZON DOPE WEBSITE-USING HTML CSS</li>
+            </ul>
+     </div>
+     </nav>
+     <!--Project Ends-->
+
+     <!--Personal Info-->
+     <nav>
+     <div id="Personal">
+        <h1 style="color: antiquewhite;">PERSONAL INFO</h1>
+            <ul>
+               <li>Name:Archana.M</li>
+               <li>Qualification:BCA</li>
+               <li>DOB:30-10-2001</li>
+               <li>Address:Bangalore</li>
+               <li>Marital Status:Indian</li>
+               <li>Nationality:Indian</li>
+               <li>Languages Known:</li>
+               <li>*Kannada</li>
+               <li>*English</li>
+            </ul>
+     </div>
+     </nav>
+     <!--Personal Ends-->
+
+     <!--Contact Starts-->
+     <nav>
+          <div id="Contact">
+            <h1 style="color: antiquewhite;">CONTACT DETAILS</h1>
+                <ul>
+                    <li><a href=""><img src="C:\Users\Archana\Pictures\Saved Pictures\phone.jfif" alt=""  height="80px" width="80px"></a>Contact Me:7349471977</li>
+                    <li><a href="archanammurthy30@gmail.com"><img src="C:\Users\Archana\Pictures\Saved Pictures\Email.png" alt=""  height="80px" width="80px"></a>Mail Us:archanammurthy30</li>
+                    <li><a href=""><img src="C:\Users\Archana\Pictures\Saved Pictures\Instagram.jfif" alt=""  height="80px" width="80px"></a>Instagram</li>
+                </ul>
+          </div>
+          </nav>
+     <!--Contact Ends-->
+
+
+
+    </div>
+</body>
+</html>

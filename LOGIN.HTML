@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .ba{
+            background-color: black;
+        }
+        .log{
+            margin-left: 400px;
+            background-color: black;
+            color: goldenrod;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="ba">
+<form class="log" action="signin.html">
+    <fieldset style="width: 40%;">
+        <legend align="center"><h2>Login Form</h2></legend>
+        <table align="center" cellpadding="5" cellspacing="5">
+            <tr>
+                <td><label for="f">First Name :</label></td>
+                <td><input type="text" name="" id="f"></td>
+            </tr>
+            <tr>
+                <td><label for="l">Last Name :</label></td>
+                <td><input type="text" name="" id="l"></td>
+            </tr>
+            <tr>
+                <td><label for="d">Date of Birth :</label></td>
+                <td><input type="date" name="" id="d"></td>
+            </tr>
+            <tr>
+                <td><label for="ma">Gender :</label></td>
+                <td><input type="radio" name="gender" id="ma"><label for="ma">Male</label>
+                <input type="radio" name="gender" id="fe"><label for="fe">Female</label>
+                <input type="radio" name="gender" id="oth"><label for="oth">Other</label></td>
+            </tr>
+            <tr>
+                <td><label for="e">Email :</label></td>
+                <td><input type="email" name="" id="e" required></td>
+            </tr>
+            <tr>
+                <td><label for="c">Create Password:</label></td>
+                <td><input type="password" name="" id="c"></td>
+            </tr>
+            <tr>
+                <td><label for="r">Re-enter Password:</label></td>
+                <td><input type="password" name="" id="r"></td>
+            </tr>
+            <tr>
+                <td><label for="a">Address :</label></td>
+                <td><textarea name="" id="" cols="45" rows="1" style="resize: none;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="st">State :</label></td>
+                <td><select name="" id="st">
+                    <option value="" hidden>--select your state--</option>
+                    <option value="">Tamilnadu</option>
+                    <option value="">Karnataka</option>
+                    <option value="">Andra</option>
+                    <option value="">Kerala</option>
+                    <option value="">Delhi</option>
+                    <option value="">Uttarakhand</option>
+                    <option value="">Kolkata</option>
+                    <option value="">Punjab</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="co">Contact :</label></td>
+                <td><select name="" id="">
+                    <option value="">+91</option>
+                    <option value="">+63</option>
+                    <option value="">+44</option>
+                    <option value="">+93</option>
+                    <option value="">+54</option>
+                    <option value="">+61</option>
+                </select>  <input type="tel" name="" id="co" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="" id="tc"><label for="tc">Agree Term&Condition</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit">
+                <input type="reset" value="Cancel"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><p>Already have an account?<a href="signin.html">Sign in</a></p></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
